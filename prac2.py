@@ -1,3 +1,4 @@
+# Implement depth first search for Romanian map problem.
 graph = {'Arad': ['Zerind', 'Timisoara', 'Sibiu'],
          'Bucharest': ['Urziceni','Pitesti', 'Giurgiu','Fagaras'],
          'Craiova': ['Dobreta', 'Rimnicu Vilcea', 'Pitesti'],
