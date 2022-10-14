@@ -8,8 +8,6 @@ from sklearn.naive_bayes import GaussianNB
 import pandas as pd 
 dataset = pd.read_csv('restaurants.csv')
 
-#dataset = datasets.load_iris()
-# fit a Naive Bayes model to the data
 model = GaussianNB()
 model.fit(dataset.iloc[:90,0:8],dataset.iloc[:90,-1])
 #model.fit(dataset.data, dataset.target)
