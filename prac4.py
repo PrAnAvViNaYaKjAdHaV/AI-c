@@ -1,8 +1,8 @@
-#Implement a simple tree algorithm for Romanian map problem.
+# Implement a simple tree algorithm for Romanian map problem.
 import random
 openList=[['Arad']]
 closedList=[]
-nodeList= {'Arad':['Sibiu','Timisora'],'Sibiu':['Arad','Timisora','Fagarus'],'Timisora':['Arad','Dorbeta'],'Dorbeta':['Timisora','Craiova'],'Fagarus':['Sibiu','Bucharest'],'Bucharest':['Dorbeta','Fagarus']}
+nodeList= {'Arad':['Sibiu','Timisora'],'Sibiu':['Arad','Timisora','Fagarus'],'Timisora':['Arad','Dorbeta'],'Dorbeta':['Timisora','Fagarus'],'Fagarus':['Sibiu','Bucharest'],'Bucharest':['Dorbeta','Fagarus']}
 
 def goalTest(some_node):
     return some_node == 'Bucharest'
@@ -32,4 +32,3 @@ def SS3():
 
     print("Goal Not Found")
 SS3()
-
